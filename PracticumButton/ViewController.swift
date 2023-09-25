@@ -9,6 +9,12 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var labelValue: UILabel!
+    
+    
+    @IBOutlet weak var butonValue: UIButton!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = UIColor.black
